@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV & Portfolio – Israel Gideon</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #004080;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .project {
+            margin-bottom: 15px;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #004080;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003060;
+        }
+        @media screen and (max-width: 600px) {
+            body {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Israel Kokou Gideon</h1>
+    <p>Développeur Web | Cotonou, Benin</p>
+    <p>Email : gideonisrael65@email.com | Téléphone : +2290161085211 ou +2290196927287</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>À propos</h2>
+        <p>Développeur web passionné avec 5 ans d'expérience dans la création de sites modernes et interactifs.</p>
+    </div>
+
+    <div class="section">
+        <h2>Expérience</h2>
+        <ul>
+            <li><strong>Développeur Front-End</strong> – Udemy Course (2022 - Présent)</li>
+            <li><strong>Stagiaire Développement Web</strong> –  Megabyte (2021 - 2022)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Compétences</h2>
+        <ul>
+            <li>HTML5, CSS3, JavaScript, React</li>
+            <li>Responsive Design</li>
+            <li>Versioning avec Git/GitHub</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>🌐 Application de minuterie d'une heure</h3>
+            <p>Site responsable du compte a rebours.</p>
+            <a href="index.html" target="_blank">Voir le projet</a>
+        </div>
+        
+    </div>
+
+    <div class="section">
+        <h2>Formation</h2>
+        <p>Licence Informatique – Université La Grace (2019 - 2022)</p>
+    </div>
+
+    <div class="section">
+        <h2>Langues</h2>
+        <ul>
+            <li>Français (courant)</li>
+            <li>Anglais (natif)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Contactez-moi</h2>
+        <form action="mailto:jean.dupont@email.com" method="POST" enctype="text/plain">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="Nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="Email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="Message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
